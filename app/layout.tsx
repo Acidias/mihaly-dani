@@ -26,6 +26,13 @@ export default function RootLayout({
     <html lang="en" className={`${inter.variable} ${jetbrainsMono.variable}`}>
       <head>
         <script defer data-site="KvdJ6Zkn" src="https://analytics.mihaly-dani.com/oa.js"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-81Y7RT9WXJ"></script>
+        <script dangerouslySetInnerHTML={{ __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-81Y7RT9WXJ');
+        `}} />
       </head>
       <body className="font-sans antialiased bg-white text-neutral-800">{children}</body>
     </html>
