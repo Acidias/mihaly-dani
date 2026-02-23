@@ -1,15 +1,15 @@
 import CaseStudyLayout from "@/components/case-study-layout";
 import { featuredProjects } from "@/data/projects";
 
-const project = featuredProjects.find((p) => p.slug === "property-extraction")!;
+const project = featuredProjects.find((p) => p.slug === "wherewatt")!;
 
-export default function PropertyExtractionPage() {
+export default function WhereWattPage() {
   return (
     <CaseStudyLayout title={project.title} role={project.role} stack={project.stack}>
       <section>
         <h2 className="text-xs font-mono uppercase tracking-wider text-neutral-400 mb-3">Problem</h2>
         <p className="text-neutral-600 leading-relaxed">
-          Property transactions require reviewing dense legal packs — often as scanned PDFs. Manual extraction was slow, error-prone, and a bottleneck.
+          Finding available EV chargers nearby is fragmented across multiple apps. There was no simple way to discover, compare, and potentially share private chargers.
         </p>
       </section>
       <section>
@@ -19,9 +19,9 @@ export default function PropertyExtractionPage() {
       <section>
         <h2 className="text-xs font-mono uppercase tracking-wider text-neutral-400 mb-3">Tech Decisions</h2>
         <ul className="space-y-2 text-sm text-neutral-600">
-          <li>— Two-stage pipeline: Tesseract OCR for text extraction, then LLM for structured entity extraction</li>
-          <li>— FastAPI backend for async document processing with job status tracking</li>
-          <li>— Confidence scores on extracted fields to flag uncertain results for human review</li>
+          <li>React Native with Expo for cross-platform mobile development</li>
+          <li>Node.js/Express backend with auth middleware and structured route handlers</li>
+          <li>Custom scraping scripts to aggregate charger data from external sources</li>
         </ul>
       </section>
       <section>

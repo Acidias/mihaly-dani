@@ -3,13 +3,13 @@ import { featuredProjects } from "@/data/projects";
 
 const project = featuredProjects.find((p) => p.slug === "dynamic-db-builder")!;
 
-export default function DynamicDBBuilderPage() {
+export default function HertsFuturePage() {
   return (
     <CaseStudyLayout title={project.title} role={project.role} stack={project.stack}>
       <section>
         <h2 className="text-xs font-mono uppercase tracking-wider text-neutral-400 mb-3">Problem</h2>
         <p className="text-neutral-600 leading-relaxed">
-          Internal teams needed custom data management tools but every new requirement meant building bespoke CRUD interfaces from scratch.
+          The project needed a responsive, maintainable web frontend that could evolve over time with changing requirements and content updates.
         </p>
       </section>
       <section>
@@ -19,9 +19,9 @@ export default function DynamicDBBuilderPage() {
       <section>
         <h2 className="text-xs font-mono uppercase tracking-wider text-neutral-400 mb-3">Tech Decisions</h2>
         <ul className="space-y-2 text-sm text-neutral-600">
-          <li>— Metadata-driven architecture: schemas define both data structure and UI rendering in one place</li>
-          <li>— Prisma for dynamic schema management with migration support</li>
-          <li>— React component library that renders forms, tables, and detail views from entity configuration</li>
+          <li>React for component-based UI with Tailwind CSS for rapid, consistent styling</li>
+          <li>Build tooling configured for production deployment</li>
+          <li>Structured for long-term maintenance with clean component separation</li>
         </ul>
       </section>
       <section>

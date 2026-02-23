@@ -1,0 +1,114 @@
+{
+  "featured": [
+    {
+      "slug": "langley-catalogue",
+      "title": "Langley Catalogue",
+      "oneLiner": "Construction pricing search platform with AI-powered semantic search, PDF ingestion, and analytics dashboard.",
+      "role": "Built end-to-end",
+      "stack": ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "pgvector", "OpenAI"],
+      "outcome": "Reduced item search time from ~5 minutes to under 1 minute per lookup.",
+      "startDate": "2025-08",
+      "endNote": "Active",
+      "links": [],
+      "description": "A full-stack construction pricing catalogue that ingests PDF source documents, extracts structured pricing data (materials, labour, rates), and provides both traditional full-text and AI-powered vector search. Includes a dashboard with search analytics, user management with role-based access, Excel import/export, PDF viewer, and an invitation-based registration system."
+    },
+    {
+      "slug": "clawpost",
+      "title": "ClawPost",
+      "oneLiner": "AI-powered social media publishing CLI for LinkedIn and X. Works best with OpenClaw.",
+      "role": "Built end-to-end",
+      "stack": ["Node.js", "JavaScript", "OpenAI API", "LinkedIn API", "X API"],
+      "outcome": "Shipped a working CLI tool with AI generation, draft management, and scheduled publishing.",
+      "startDate": "2026-02",
+      "endNote": "Active",
+      "links": [
+        { "label": "GitHub", "href": "https://github.com/Acidias/clawpost" },
+        { "label": "Website", "href": "https://clawpost.dev/" },
+        { "label": "OpenClaw", "href": "https://openclaw.ai/" }
+      ],
+      "description": "ClawPost is a CLI tool that lets you generate, draft, schedule, and publish social media posts to LinkedIn and X from the terminal. Uses AI to generate platform-tailored content with refinement options. Works best with OpenClaw, the open-source AI engine."
+    },
+    {
+      "slug": "fall-detection-synthetic-data",
+      "title": "Synthetic Data for Fall Detection",
+      "oneLiner": "Final year project: VAE-based synthetic video generation pipeline for fall detection training data.",
+      "role": "Solo researcher",
+      "stack": ["Python", "PyTorch", "Jupyter", "VAE", "NumPy"],
+      "outcome": "Built a VAE pipeline that generates synthetic fall sequences from real video frames for data augmentation.",
+      "startDate": "2025-04",
+      "endDate": "2025-04",
+      "endNote": "Submitted",
+      "links": [
+        { "label": "GitHub", "href": "https://github.com/Acidias/Final-Year-Project" }
+      ],
+      "description": "Final year research project exploring variational autoencoders for generating synthetic fall detection training data. Pipeline covers frame preprocessing, chunk preparation, VAE training, and synthetic sequence generation."
+    },
+    {
+      "slug": "dynamic-db-builder",
+      "title": "HertsFuture",
+      "oneLiner": "Web platform built with React and Tailwind, deployed and maintained over two years.",
+      "role": "Full-stack developer",
+      "stack": ["React", "Tailwind CSS", "JavaScript", "CSS"],
+      "outcome": "Delivered and maintained a production web application across multiple iterations.",
+      "startDate": "2023-09",
+      "endDate": "2025-05",
+      "endNote": "Maintained",
+      "links": [
+        { "label": "GitHub", "href": "https://github.com/Acidias/HertsFuture" }
+      ],
+      "description": "A web platform built with React and Tailwind CSS. Developed the frontend, configured build tooling, and maintained the project through multiple updates over nearly two years."
+    },
+    {
+      "slug": "wherewatt",
+      "title": "WhereWatt",
+      "oneLiner": "EV charger sharing app built as a Stanford Summer Session Technological Entrepreneurship prototype.",
+      "role": "Built end-to-end",
+      "stack": ["React Native", "TypeScript", "Node.js", "Express", "MongoDB"],
+      "outcome": "Built a full mobile app with backend API, auth middleware, and charger data scraping.",
+      "startDate": "2024-12",
+      "endDate": "2025-01",
+      "endNote": "Prototype",
+      "links": [
+        { "label": "GitHub", "href": "https://github.com/Acidias/wherewatt" }
+      ],
+      "description": "A React Native mobile app for finding and sharing EV chargers, built as a prototype for Stanford Summer Session's Technological Entrepreneurship course. Includes a Node.js/Express backend with authentication, charger data scraping, and route-based API structure."
+    }
+  ],
+  "other": [
+    {
+      "title": "OpenAnalytics",
+      "description": "Privacy-first analytics platform, one line of code for complete insights.",
+      "startDate": "2026-02",
+      "endNote": "Active",
+      "link": "https://github.com/Acidias/OpenAnalytics"
+    },
+    {
+      "title": "Chatbot",
+      "description": "Conversational AI chatbot built with Rasa, with a client frontend and custom actions server.",
+      "startDate": "2023-02",
+      "endNote": "Finished",
+      "link": "https://github.com/Acidias/chatbot"
+    },
+    {
+      "title": "PubZone App",
+      "description": "React Native mobile app with navigation, context state, and service layer architecture.",
+      "startDate": "2024-03",
+      "endNote": "Prototype",
+      "link": "https://github.com/Acidias/pubZoneApp"
+    },
+    {
+      "title": "GridWorld",
+      "description": "Python reinforcement learning grid world environment.",
+      "startDate": "2024-04",
+      "endNote": "Finished",
+      "link": "https://github.com/Acidias/GridWorld"
+    },
+    {
+      "title": "N-gram Language Model",
+      "description": "N-gram based language model implementation.",
+      "startDate": "2024-07",
+      "endNote": "Finished",
+      "link": "https://github.com/Acidias/ngram"
+    }
+  ]
+}

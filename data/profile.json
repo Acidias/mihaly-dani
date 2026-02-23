@@ -1,0 +1,22 @@
+{
+  "toolbelt": {
+    "Frontend": ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+    "Backend": ["NestJS", "Node.js", "REST APIs", "GraphQL"],
+    "Data": ["PostgreSQL", "Redis", "ETL Pipelines", "Prisma"],
+    "ML": ["PyTorch", "OpenCV", "Computer Vision", "LLM APIs"]
+  },
+  "research": {
+    "focusAreas": [
+      "Synthetic data generation for limited-label video understanding tasks",
+      "Robustness and generalization in pose-based human activity recognition"
+    ],
+    "contributions": [
+      "Built interpolation-based synthetic data pipelines for fall detection datasets",
+      "Compared optical flow vs. skeleton features across multiple camera viewpoints",
+      "Evaluated model performance under domain shift using cross-environment test sets"
+    ],
+    "links": [
+      { "label": "Research Report", "href": "#" }
+    ]
+  }
+}
