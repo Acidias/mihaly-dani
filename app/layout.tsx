@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Inter, JetBrains_Mono } from "next/font/google";
-import Script from "next/script";
 import "./globals.css";
 
 const inter = Inter({
@@ -26,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${jetbrainsMono.variable}`}>
       <head>
-        <Script defer data-site="CCDYa0rp" src="https://analytics.mihaly-dani.com/oa.js" strategy="afterInteractive" />
+        <script defer data-site="CCDYa0rp" src="https://analytics.mihaly-dani.com/oa.js"></script>
       </head>
       <body className="font-sans antialiased bg-white text-neutral-800">{children}</body>
     </html>
