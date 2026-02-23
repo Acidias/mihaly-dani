@@ -24,6 +24,14 @@ export interface OtherProject {
   link?: string;
 }
 
+export interface CurrentProject {
+  title: string;
+  description: string;
+  role: string;
+  link: string;
+}
+
+export const currentProjects: CurrentProject[] = projectsData.currently;
 export const featuredProjects: Project[] = projectsData.featured;
 export const otherProjects: OtherProject[] = projectsData.other;
 export const toolbelt = profileData.toolbelt;

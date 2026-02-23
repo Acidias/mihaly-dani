@@ -1,17 +1,19 @@
 {
-  "featured": [
+  "currently": [
     {
-      "slug": "langley-catalogue",
-      "title": "Langley Catalogue",
-      "oneLiner": "Construction pricing search platform with AI-powered semantic search, PDF ingestion, and analytics dashboard.",
-      "role": "Built end-to-end",
-      "stack": ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "pgvector", "OpenAI"],
-      "outcome": "Reduced item search time from ~5 minutes to under 1 minute per lookup.",
-      "startDate": "2025-08",
-      "endNote": "Active",
-      "links": [],
-      "description": "A full-stack construction pricing catalogue that ingests PDF source documents, extracts structured pricing data (materials, labour, rates), and provides both traditional full-text and AI-powered vector search. Includes a dashboard with search analytics, user management with role-based access, Excel import/export, PDF viewer, and an invitation-based registration system."
+      "title": "Foundry70",
+      "description": "A £1M Digital Growth Fund for UK SMEs. Custom software development, AI integration, and process automation, 70% funded.",
+      "role": "Founder",
+      "link": "https://www.foundry70.co.uk/"
     },
+    {
+      "title": "ClawPost",
+      "description": "AI-powered social media publishing CLI for LinkedIn and X. Works best with OpenClaw.",
+      "role": "Built end-to-end",
+      "link": "https://clawpost.dev/"
+    }
+  ],
+  "featured": [
     {
       "slug": "clawpost",
       "title": "ClawPost",
@@ -29,6 +31,34 @@
       "description": "ClawPost is a CLI tool that lets you generate, draft, schedule, and publish social media posts to LinkedIn and X from the terminal. Uses AI to generate platform-tailored content with refinement options. Works best with OpenClaw, the open-source AI engine."
     },
     {
+      "slug": "langley-catalogue",
+      "title": "Langley Catalogue",
+      "oneLiner": "Construction pricing search platform with AI-powered semantic search, PDF ingestion, and analytics dashboard.",
+      "role": "Built end-to-end",
+      "stack": ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "pgvector", "OpenAI"],
+      "outcome": "Reduced item search time from ~5 minutes to under 1 minute per lookup.",
+      "startDate": "2025-08",
+      "endDate": "2026-02",
+      "endNote": "Finished / Handover · Private",
+      "links": [],
+      "description": "A full-stack construction pricing catalogue that ingests PDF source documents, extracts structured pricing data (materials, labour, rates), and provides both traditional full-text and AI-powered vector search. Includes a dashboard with search analytics, user management with role-based access, Excel import/export, PDF viewer, and an invitation-based registration system."
+    },
+    {
+      "slug": "rebeka-beauty-salon",
+      "title": "Rebeka Beauty Salon",
+      "oneLiner": "Full-stack beauty salon platform with admin CMS, treatment booking, multilingual support, and review system.",
+      "role": "Built end-to-end",
+      "stack": ["Next.js", "TypeScript", "Vercel Postgres", "Tailwind CSS", "Radix UI", "Zod"],
+      "outcome": "Delivered a production salon website with a full admin dashboard and content management system.",
+      "startDate": "2025-08",
+      "endNote": "Active",
+      "links": [
+        { "label": "GitHub", "href": "https://github.com/Acidias/rebeka-beauty-salon" },
+        { "label": "Live", "href": "https://your-bestversion.com/" }
+      ],
+      "description": "A complete salon website with public-facing pages for treatments, pricing, and contact, plus a full admin dashboard for managing content. Features include multilingual support (language switcher), a review carousel with submission modals, treatment management with drag-and-drop ordering, image upload with cropping, marketing popups, and a REST API backed by Vercel Postgres."
+    },
+    {
       "slug": "fall-detection-synthetic-data",
       "title": "Synthetic Data for Fall Detection",
       "oneLiner": "Final year project: VAE-based synthetic video generation pipeline for fall detection training data.",
@@ -42,21 +72,6 @@
         { "label": "GitHub", "href": "https://github.com/Acidias/Final-Year-Project" }
       ],
       "description": "Final year research project exploring variational autoencoders for generating synthetic fall detection training data. Pipeline covers frame preprocessing, chunk preparation, VAE training, and synthetic sequence generation."
-    },
-    {
-      "slug": "dynamic-db-builder",
-      "title": "HertsFuture",
-      "oneLiner": "Web platform built with React and Tailwind, deployed and maintained over two years.",
-      "role": "Full-stack developer",
-      "stack": ["React", "Tailwind CSS", "JavaScript", "CSS"],
-      "outcome": "Delivered and maintained a production web application across multiple iterations.",
-      "startDate": "2023-09",
-      "endDate": "2025-05",
-      "endNote": "Maintained",
-      "links": [
-        { "label": "GitHub", "href": "https://github.com/Acidias/HertsFuture" }
-      ],
-      "description": "A web platform built with React and Tailwind CSS. Developed the frontend, configured build tooling, and maintained the project through multiple updates over nearly two years."
     },
     {
       "slug": "wherewatt",
@@ -83,18 +98,11 @@
       "link": "https://github.com/Acidias/OpenAnalytics"
     },
     {
-      "title": "Chatbot",
-      "description": "Conversational AI chatbot built with Rasa, with a client frontend and custom actions server.",
-      "startDate": "2023-02",
+      "title": "N-gram Language Model",
+      "description": "N-gram based language model implementation.",
+      "startDate": "2024-07",
       "endNote": "Finished",
-      "link": "https://github.com/Acidias/chatbot"
-    },
-    {
-      "title": "PubZone App",
-      "description": "React Native mobile app with navigation, context state, and service layer architecture.",
-      "startDate": "2024-03",
-      "endNote": "Prototype",
-      "link": "https://github.com/Acidias/pubZoneApp"
+      "link": "https://github.com/Acidias/ngram"
     },
     {
       "title": "GridWorld",
@@ -104,11 +112,18 @@
       "link": "https://github.com/Acidias/GridWorld"
     },
     {
-      "title": "N-gram Language Model",
-      "description": "N-gram based language model implementation.",
-      "startDate": "2024-07",
+      "title": "PubZone App",
+      "description": "React Native mobile app with navigation, context state, and service layer architecture.",
+      "startDate": "2024-03",
+      "endNote": "Prototype",
+      "link": "https://github.com/Acidias/pubZoneApp"
+    },
+    {
+      "title": "Chatbot",
+      "description": "Conversational AI chatbot built with Rasa, with a client frontend and custom actions server.",
+      "startDate": "2023-02",
       "endNote": "Finished",
-      "link": "https://github.com/Acidias/ngram"
+      "link": "https://github.com/Acidias/chatbot"
     }
   ]
 }

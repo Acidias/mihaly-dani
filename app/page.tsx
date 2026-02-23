@@ -1,4 +1,4 @@
-import { featuredProjects, otherProjects, toolbelt, researchContent } from "@/data/projects";
+import { currentProjects, featuredProjects, otherProjects, toolbelt, researchContent } from "@/data/projects";
 import Link from "next/link";
 
 export default function Home() {
@@ -35,6 +35,26 @@ export default function Home() {
           scoping the problem, building quickly, measuring outcomes, and
           iterating.
         </p>
+      </section>
+
+      <hr className="border-neutral-200 mb-12" />
+
+      {/* Currently */}
+      <section className="mb-12">
+        <h2 className="text-xs font-mono uppercase tracking-wider text-neutral-400 mb-4">Currently</h2>
+        <div className="space-y-4">
+          {currentProjects.map((p) => (
+            <div key={p.title} className="flex items-baseline justify-between gap-4">
+              <div>
+                <a href={p.link} target="_blank" rel="noopener noreferrer" className="font-medium text-neutral-900 hover:underline underline-offset-4">
+                  {p.title}
+                </a>
+                <span className="text-xs text-neutral-400 ml-2">{p.role}</span>
+                <p className="text-sm text-neutral-500 mt-0.5">{p.description}</p>
+              </div>
+            </div>
+          ))}
+        </div>
       </section>
 
       <hr className="border-neutral-200 mb-12" />
