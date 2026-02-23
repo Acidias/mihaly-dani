@@ -1,63 +1,32 @@
-"use client";
-
 import CaseStudyLayout from "@/components/case-study-layout";
 import { featuredProjects } from "@/data/projects";
 
-const project = featuredProjects.find(
-  (p) => p.slug === "dynamic-db-builder"
-)!;
+const project = featuredProjects.find((p) => p.slug === "dynamic-db-builder")!;
 
 export default function DynamicDBBuilderPage() {
   return (
-    <CaseStudyLayout
-      title={project.title}
-      role={project.role}
-      stack={project.stack}
-    >
-      <section className="glass-card rounded-2xl p-8">
-        <h2 className="text-sm font-mono text-amber-400/80 tracking-wider uppercase mb-4">
-          Problem
-        </h2>
-        <p className="text-slate-300 leading-relaxed">
-          Internal teams needed custom data management tools but every new
-          requirement meant building bespoke CRUD interfaces from scratch —
-          duplicating the same patterns for tables, forms, and validation logic
-          each time.
+    <CaseStudyLayout title={project.title} role={project.role} stack={project.stack}>
+      <section>
+        <h2 className="text-xs font-mono uppercase tracking-wider text-neutral-400 mb-3">Problem</h2>
+        <p className="text-neutral-600 leading-relaxed">
+          Internal teams needed custom data management tools but every new requirement meant building bespoke CRUD interfaces from scratch.
         </p>
       </section>
-
-      <section className="glass-card rounded-2xl p-8">
-        <h2 className="text-sm font-mono text-amber-400/80 tracking-wider uppercase mb-4">
-          What I Built
-        </h2>
-        <p className="text-slate-300 leading-relaxed">
-          {project.description}
-        </p>
+      <section>
+        <h2 className="text-xs font-mono uppercase tracking-wider text-neutral-400 mb-3">What I Built</h2>
+        <p className="text-neutral-600 leading-relaxed">{project.description}</p>
       </section>
-
-      <section className="glass-card rounded-2xl p-8">
-        <h2 className="text-sm font-mono text-amber-400/80 tracking-wider uppercase mb-4">
-          Tech Decisions
-        </h2>
-        <ul className="space-y-3">
-          {[
-            "Metadata-driven architecture: schemas define both data structure and UI rendering in one place",
-            "Prisma for dynamic schema management with migration support",
-            "React component library that renders forms, tables, and detail views from entity configuration",
-          ].map((item) => (
-            <li key={item} className="flex items-start gap-3 text-slate-300">
-              <span className="text-amber-500 mt-0.5 shrink-0">&#8594;</span>
-              <span className="text-sm leading-relaxed">{item}</span>
-            </li>
-          ))}
+      <section>
+        <h2 className="text-xs font-mono uppercase tracking-wider text-neutral-400 mb-3">Tech Decisions</h2>
+        <ul className="space-y-2 text-sm text-neutral-600">
+          <li>— Metadata-driven architecture: schemas define both data structure and UI rendering in one place</li>
+          <li>— Prisma for dynamic schema management with migration support</li>
+          <li>— React component library that renders forms, tables, and detail views from entity configuration</li>
         </ul>
       </section>
-
-      <section className="glass-card rounded-2xl p-8 glow-amber">
-        <h2 className="text-sm font-mono text-amber-400/80 tracking-wider uppercase mb-4">
-          Outcome
-        </h2>
-        <p className="text-amber-400 font-medium text-lg">{project.outcome}</p>
+      <section>
+        <h2 className="text-xs font-mono uppercase tracking-wider text-neutral-400 mb-3">Outcome</h2>
+        <p className="text-neutral-900 font-medium">{project.outcome}</p>
       </section>
     </CaseStudyLayout>
   );

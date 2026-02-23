@@ -13,9 +13,8 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Mihaly Dani — Full-Stack + ML Engineer",
-  description:
-    "Portfolio of Mihaly Dani. Full-stack and ML engineer building practical AI products and data-driven systems.",
+  title: "Mihaly Dani",
+  description: "Full-stack and ML engineer.",
 };
 
 export default function RootLayout({
