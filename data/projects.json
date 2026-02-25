@@ -11,9 +11,29 @@
       "description": "AI-powered social media publishing CLI for LinkedIn and X. Works best with OpenClaw.",
       "role": "Built end-to-end",
       "link": "https://clawpost.dev/"
+    },
+    {
+      "title": "Jigsaw Puzzle Solver AI",
+      "description": "Building the world's fastest jigsaw puzzle solver AI. Currently generating large-scale training data with a native macOS puzzle piece generator.",
+      "role": "Built end-to-end",
+      "link": "https://github.com/Acidias/jigsaw-puzzle-generator"
     }
   ],
   "featured": [
+    {
+      "slug": "jigsaw-puzzle-solver",
+      "title": "Jigsaw Puzzle Solver AI",
+      "oneLiner": "Multi-step project to build the fastest jigsaw puzzle solver AI, starting with a native macOS data generation tool.",
+      "role": "Built end-to-end",
+      "stack": ["Swift", "SwiftUI", "Core Graphics", "Python", "PyTorch"],
+      "outcome": "Built a native macOS puzzle generator app producing training data at scale with bezier-curve interlocking pieces.",
+      "startDate": "2026-02",
+      "endNote": "Active",
+      "links": [
+        { "label": "GitHub", "href": "https://github.com/Acidias/jigsaw-puzzle-generator" }
+      ],
+      "description": "A multi-phase project to create the world's fastest jigsaw puzzle solver AI. Phase 1: a native macOS app (Swift + SwiftUI) that generates realistic jigsaw puzzle pieces from any image using CGPath bezier curves. Pieces have randomised interlocking tabs/blanks, are exported as transparent PNGs with metadata JSON, and serve as large-scale training data for the solver model. Configurable grid sizes from 1x2 to 100x100."
+    },
     {
       "slug": "clawpost",
       "title": "ClawPost",
