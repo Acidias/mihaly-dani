@@ -13,6 +13,10 @@ type LogEntry = {
 const entries: LogEntry[] = [
   {
     date: "2026-02-25",
+    text: "Jigsaw Puzzle Generator: added Openverse image fetching (tens of thousands of images), auto-normalization for ML training, and puzzle cutting at any dimension. Posted a video demo on X. Open source on GitHub.",
+  },
+  {
+    date: "2026-02-25",
     text: "Added my personal story to the site. About page is live.",
   },
   {
