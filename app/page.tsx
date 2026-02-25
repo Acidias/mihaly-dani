@@ -13,11 +13,15 @@ export default function Home() {
           Full-stack + ML engineer building practical AI products and
           data-driven systems.
         </p>
-        <div className="flex gap-4 text-sm">
+        <div className="flex gap-4 text-sm mb-4">
           <a href="https://github.com/Acidias" target="_blank" rel="noopener noreferrer" className="text-neutral-500 underline underline-offset-4 hover:text-neutral-900 transition-colors">GitHub</a>
           <a href="https://www.linkedin.com/in/dani-mihaly-arpad/" target="_blank" rel="noopener noreferrer" className="text-neutral-500 underline underline-offset-4 hover:text-neutral-900 transition-colors">LinkedIn</a>
           <a href="https://x.com/MihalyDaniA" target="_blank" rel="noopener noreferrer" className="text-neutral-500 underline underline-offset-4 hover:text-neutral-900 transition-colors">X</a>
           <a href="mailto:hello@mihaly-dani.com" className="text-neutral-500 underline underline-offset-4 hover:text-neutral-900 transition-colors">Email</a>
+        </div>
+        <div className="flex gap-4 text-sm">
+          <Link href="/about" className="text-neutral-900 font-medium underline underline-offset-4 hover:text-neutral-600 transition-colors">My Story</Link>
+          <Link href="/log" className="text-neutral-900 font-medium underline underline-offset-4 hover:text-neutral-600 transition-colors">Log</Link>
         </div>
       </header>
 
