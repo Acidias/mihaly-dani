@@ -62,16 +62,6 @@ export default function AboutPage() {
         </section>
 
         <section>
-          <h2 className="text-xs font-mono uppercase tracking-wider text-neutral-400 mb-4">Building products</h2>
-          <p className="text-neutral-700 leading-relaxed mb-4">
-            On the days I wasn&apos;t doing night shifts, I didn&apos;t rest like a normal person. I took a part-time programming job. It started with small automation scripts for a company. But my brain doesn&apos;t stop at the task in front of me. I always think: what&apos;s the bigger system here? How can this become a real product that helps more people?
-          </p>
-          <p className="text-neutral-700 leading-relaxed">
-            So I pitched an idea. A database and zero-code application platform. Something scalable, something that solves a category of problems, not one internal task. And we actually built it. That was a defining moment for me. I see leverage in work. I see how small things can become big things. That&apos;s how my mind works.
-          </p>
-        </section>
-
-        <section>
           <h2 className="text-xs font-mono uppercase tracking-wider text-neutral-400 mb-4">Stanford</h2>
           <p className="text-neutral-700 leading-relaxed mb-4">
             Going to America was always a far away dream for me. Studying at a place like Stanford? I didn&apos;t even dare to say out loud how much I wanted it.
