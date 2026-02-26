@@ -12,6 +12,14 @@ type LogEntry = {
 
 const entries: LogEntry[] = [
   {
+    date: "2026-02-26",
+    text: "Jigsaw Puzzle Generator: full training infrastructure done. Siamese Neural Network architecture presets, auto PyTorch script generation, local + cloud (SSH) training with live progress, experiment tracking with script hashes. Ready to start training runs.",
+  },
+  {
+    date: "2026-02-26",
+    text: "Updated project page with all 6 phases. Phases 1-3 complete (data gen, dataset gen, training infra). Next: train the actual piece matching model.",
+  },
+  {
     date: "2026-02-25",
     text: "Jigsaw Puzzle Generator: added Openverse image fetching (tens of thousands of images), auto-normalization for ML training, and puzzle cutting at any dimension. Posted a video demo on X. Open source on GitHub.",
   },
