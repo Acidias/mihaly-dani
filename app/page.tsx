@@ -9,9 +9,12 @@ export default function Home() {
         <h1 className="text-2xl font-semibold text-neutral-900 mb-1">
           Mihaly Dani
         </h1>
-        <p className="text-neutral-500 mb-4">
+        <p className="text-neutral-500 mb-2">
           Full-stack + ML engineer building practical AI products and
           data-driven systems.
+        </p>
+        <p className="text-xs text-neutral-400 mb-4">
+          BSc Computer Science, First Class · Dong-a University Summer School 2023 · Stanford Summer Session 2024
         </p>
         <div className="flex gap-4 text-sm mb-4">
           <a href="https://github.com/Acidias" target="_blank" rel="noopener noreferrer" className="text-neutral-500 underline underline-offset-4 hover:text-neutral-900 transition-colors">GitHub</a>
