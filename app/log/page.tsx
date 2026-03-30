@@ -12,6 +12,18 @@ type LogEntry = {
 
 const entries: LogEntry[] = [
   {
+    date: "2026-03-24",
+    text: "Foundry 70: updated landing page and website based on feedback from early conversations. Expanding the network, connecting with local business communities and exploring partnerships in Hertfordshire.",
+  },
+  {
+    date: "2026-03-15",
+    text: "Foundry 70 is picking up pace. Building this business alongside the KTP role. Two jobs, one goal: ship things that matter.",
+  },
+  {
+    date: "2026-03-01",
+    text: "Started a new role: Research Scientist on a Knowledge Transfer Partnership (KTP) between the University of Hertfordshire and a pharmaceutical research company. KTPs are government-funded partnerships where universities and businesses collaborate on innovation projects. I am leading the machine learning research side, applying AI to real-world pharmaceutical data.",
+  },
+  {
     date: "2026-02-26",
     text: "Jigsaw Puzzle Generator: full training infrastructure done. Siamese Neural Network architecture presets, auto PyTorch script generation, local + cloud (SSH) training with live progress, experiment tracking with script hashes. Ready to start training runs.",
   },
