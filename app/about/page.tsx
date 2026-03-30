@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export const metadata = {
   title: "About – Mihaly Dani",
-  description: "My story – from Serbia to the UK, night shifts to Stanford, and building things that matter.",
+  description: "My story – Hungarian blood, Serbian soil, British postcode. Night shifts to Stanford, and building things that matter.",
 };
 
 export default function AboutPage() {
@@ -16,7 +16,7 @@ export default function AboutPage() {
           My Story
         </h1>
         <p className="text-neutral-500">
-          From Serbia to the UK, night shifts to Stanford, and building things that matter.
+          Hungarian blood. Serbian soil. British postcode. Still building.
         </p>
       </header>
 
