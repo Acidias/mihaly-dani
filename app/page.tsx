@@ -13,7 +13,7 @@ export default function Home() {
           Full-stack + ML engineer building practical AI products and
           data-driven systems.
         </p>
-        <p className="text-xs text-neutral-400 mb-4">
+        <p className="text-sm text-neutral-600 font-medium mb-4">
           BSc Computer Science, First Class · Dong-a University Summer School 2023 · Stanford Summer Session 2024
         </p>
         <div className="flex gap-4 text-sm mb-4">
