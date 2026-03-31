@@ -12,6 +12,10 @@ type LogEntry = {
 
 const entries: LogEntry[] = [
   {
+    date: "2026-03-31",
+    text: "Built a quick landing page for a friend's property management business in Germany (Klein & Fein Hausmeisterservice). Fun side project, nice to help people get online with a clean, professional site.",
+  },
+  {
     date: "2026-03-24",
     text: "Foundry 70: updated landing page and website based on feedback from early conversations. Expanding the network, connecting with local business communities and exploring partnerships in Hertfordshire.",
   },
@@ -21,7 +25,7 @@ const entries: LogEntry[] = [
   },
   {
     date: "2026-03-01",
-    text: "Started a new role: Research Scientist on a Knowledge Transfer Partnership (KTP) between the University of Hertfordshire and a pharmaceutical research company. KTPs are government-funded partnerships where universities and businesses collaborate on innovation projects. I am leading the machine learning research side, applying AI to real-world pharmaceutical data.",
+    text: "Started a new role: Research Scientist on a Knowledge Transfer Partnership (KTP) between the University of Hertfordshire and a pharmaceutical research company. KTPs are government-funded partnerships where universities and businesses collaborate on innovation projects. I manage the full project end-to-end, bridging both the university and the company, driving the machine learning research and applying AI to real-world pharmaceutical data.",
   },
   {
     date: "2026-02-26",
