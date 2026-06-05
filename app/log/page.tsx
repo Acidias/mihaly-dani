@@ -12,10 +12,6 @@ type LogEntry = {
 
 const entries: LogEntry[] = [
   {
-    date: "2026-06-05",
-    text: "Almanac: built a personal command-centre dashboard — a 'morning briefing' agent that pulls my calendar, email, bank statements and Trading 212 portfolio into one Next.js + Postgres view, with daily AI-generated summaries. Cron-driven ingest keeps it fresh. Runs locally, just for me.",
-  },
-  {
     date: "2026-06-04",
     text: "Just finished a four-day KTP residential training at Ashorne Hill, near Leamington Spa. It brings KTP associates from across the UK together and focuses on project management, leadership, presenting and team development. A brilliant opportunity to meet other associates and learn more about myself: how I work in a team, how I collaborate, and the areas I want to improve.",
   },
@@ -26,6 +22,10 @@ const entries: LogEntry[] = [
   {
     date: "2026-05-20",
     text: "KTP: ran a multimodal pain-classification study on the BioVid dataset — comparing the existing facial-landmark video features against physiological signals (EDA, ECG, EMG) using SVM and Random Forest, with leave-one-subject-out cross-validation on the university HPC cluster.",
+  },
+  {
+    date: "2026-05-12",
+    text: "Almanac: built a personal command-centre dashboard — a 'morning briefing' agent that pulls my calendar, email, bank statements and Trading 212 portfolio into one Next.js + Postgres view, with daily AI-generated summaries. Cron-driven ingest keeps it fresh. Runs locally, just for me.",
   },
   {
     date: "2026-03-31",
