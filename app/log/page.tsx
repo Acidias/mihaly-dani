@@ -16,6 +16,10 @@ const entries: LogEntry[] = [
     text: "Almanac: built a personal command-centre dashboard — a 'morning briefing' agent that pulls my calendar, email, bank statements and Trading 212 portfolio into one Next.js + Postgres view, with daily AI-generated summaries. Cron-driven ingest keeps it fresh. Runs locally, just for me.",
   },
   {
+    date: "2026-06-04",
+    text: "Just finished a four-day KTP residential training at Ashorne Hill, near Leamington Spa. It brings KTP associates from across the UK together and focuses on project management, leadership, presenting and team development — including a Belbin team-roles assessment. A brilliant opportunity to meet other associates and learn more about myself: how I work in a team, how I collaborate, and the areas I want to improve.",
+  },
+  {
     date: "2026-06-02",
     text: "LiftPad: shipped my personal gym tracker for an Upper/Lower/Push/Pull/Legs routine. Works fully offline via localStorage with optional Neon Postgres sync, and exercise demos open straight to YouTube. Live on Vercel.",
   },
