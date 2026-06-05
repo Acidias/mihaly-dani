@@ -56,9 +56,13 @@ export default function Home() {
           {currentProjects.map((p) => (
             <div key={p.title} className="flex items-baseline justify-between gap-4">
               <div>
-                <a href={p.link} target="_blank" rel="noopener noreferrer" className="font-medium text-neutral-900 hover:underline underline-offset-4">
-                  {p.title}
-                </a>
+                {p.link ? (
+                  <a href={p.link} target="_blank" rel="noopener noreferrer" className="font-medium text-neutral-900 hover:underline underline-offset-4">
+                    {p.title}
+                  </a>
+                ) : (
+                  <span className="font-medium text-neutral-900">{p.title}</span>
+                )}
                 <span className="text-xs text-neutral-400 ml-2">{p.role}</span>
                 <p className="text-sm text-neutral-500 mt-0.5">{p.description}</p>
               </div>

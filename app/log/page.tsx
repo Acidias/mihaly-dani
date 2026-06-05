@@ -12,6 +12,18 @@ type LogEntry = {
 
 const entries: LogEntry[] = [
   {
+    date: "2026-06-05",
+    text: "Almanac: built a personal command-centre dashboard — a 'morning briefing' agent that pulls my calendar, email, bank statements and Trading 212 portfolio into one Next.js + Postgres view, with daily AI-generated summaries. Cron-driven ingest keeps it fresh. Runs locally, just for me.",
+  },
+  {
+    date: "2026-06-02",
+    text: "LiftPad: shipped my personal gym tracker for an Upper/Lower/Push/Pull/Legs routine. Works fully offline via localStorage with optional Neon Postgres sync, and exercise demos open straight to YouTube. Live on Vercel.",
+  },
+  {
+    date: "2026-05-20",
+    text: "KTP: ran a multimodal pain-classification study on the BioVid dataset — comparing the existing facial-landmark video features against physiological signals (EDA, ECG, EMG) using SVM and Random Forest, with leave-one-subject-out cross-validation on the university HPC cluster.",
+  },
+  {
     date: "2026-03-31",
     text: "Built a quick landing page for a friend's property management business in Germany (Klein & Fein Hausmeisterservice). Fun side project, nice to help people get online with a clean, professional site.",
   },

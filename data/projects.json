@@ -11,6 +11,12 @@
       "description": "Personal training tracker with optional sign-up and Neon Postgres sync; works offline via localStorage. Exercise demos open YouTube searches. Hosted on Vercel.",
       "role": "Creator",
       "link": "https://liftpad.vercel.app"
+    },
+    {
+      "title": "Almanac — personal morning-briefing agent",
+      "description": "A personal command-centre that pulls my calendar, email, bank statements and Trading 212 portfolio into one Next.js + Postgres dashboard, with daily AI-generated summaries. Cron-driven ingest scripts keep it fresh; runs locally.",
+      "role": "Creator",
+      "link": ""
     }
   ],
   "featured": [
@@ -82,7 +88,6 @@
       "startDate": "2025-08",
       "endNote": "Active",
       "links": [
-        { "label": "GitHub", "href": "https://github.com/Acidias/rebeka-beauty-salon" },
         { "label": "Live", "href": "https://your-bestversion.com/" }
       ],
       "description": "A complete salon website with public-facing pages for treatments, pricing, and contact, plus a full admin dashboard for managing content. Features include multilingual support (language switcher), a review carousel with submission modals, treatment management with drag-and-drop ordering, image upload with cropping, marketing popups, and a REST API backed by Vercel Postgres."
