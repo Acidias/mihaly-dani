@@ -14,8 +14,12 @@ type ProgressEntry = { date: string; text: string };
 
 const progress: ProgressEntry[] = [
   {
-    date: "2026-05-30",
-    text: "Started layering an agentic workflow on top of the research code — using LLMs to help triage experiments, summarise runs, and keep the medical-imaging classification work organised across the project.",
+    date: "2026-05-29",
+    text: "Project meeting: presented noisy-subject removal and video feature reduction. Ranking the 912-D facial features by importance and keeping only the top ~30 actually improved results — around 86% with a leave-one-subject-out random forest, and EDA alone reaching ~79% versus the ~72% video-only baseline from the original study. The findings are now strong enough to write up: a paper on the results is on the way, targeting a journal special issue.",
+  },
+  {
+    date: "2026-05-21",
+    text: "Project meeting on the multimodal comparison. Across SVM (linear and RBF) and random forest on BioVid: EDA (skin conductance) is the strongest single signal for telling graded pain levels apart, while the video features give the best and most stable accuracy for simply detecting whether pain is present. Feature-level fusion of the signals and the challenge of individual variability were the main discussion points.",
   },
   {
     date: "2026-05-20",

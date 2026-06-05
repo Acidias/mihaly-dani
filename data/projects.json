@@ -14,7 +14,7 @@
     },
     {
       "title": "Almanac — personal morning-briefing agent",
-      "description": "A personal command-centre that pulls my calendar, email, bank statements and Trading 212 portfolio into one Next.js + Postgres dashboard, with daily AI-generated summaries. Cron-driven ingest scripts keep it fresh; runs locally.",
+      "description": "Every morning at 9:30 I get a fresh briefing: my todos and agenda for the day, an overnight market summary, and what's happening in the global economy. It's a personal command-centre that pulls my calendar, email, bank statements and Trading 212 portfolio into one Next.js + Postgres dashboard, with daily AI-generated summaries. Cron-driven ingest scripts keep it fresh; runs locally.",
       "role": "Creator",
       "link": ""
     }
